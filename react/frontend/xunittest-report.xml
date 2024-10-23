@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="jest tests" tests="6" failures="6" errors="0" time="3.06">
+  <testsuite name="main.test.js" errors="0" failures="3" skipped="0" timestamp="2023-06-07T18:22:54" time="1.652" tests="3">
+    <testcase classname="App" name="renders loading state initially" time="0.018">
+      <failure>TestingLibraryElementError: Unable to find an element with the text: Loading.... This could be because the text is broken up by multiple elements. In this case, you can provide a function for your text matcher to make your matcher more flexible.
+
+Ignored nodes: comments, script, style
+&lt;body&gt;
+  &lt;div&gt;
+    &lt;div&gt;
+      &lt;h1&gt;
+        Phone List
+      &lt;/h1&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/body&gt;
+    at Object.getElementError (/home/hackerearth/Documents/My React/react/frontend/node_modules/@testing-library/dom/dist/config.js:40:19)
+    at /home/hackerearth/Documents/My React/react/frontend/node_modules/@testing-library/dom/dist/query-helpers.js:90:38
+    at /home/hackerearth/Documents/My React/react/frontend/node_modules/@testing-library/dom/dist/query-helpers.js:62:17
+    at getByText (/home/hackerearth/Documents/My React/react/frontend/node_modules/@testing-library/dom/dist/query-helpers.js:111:19)
+    at _callee$ (/home/hackerearth/Documents/My React/react/frontend/main.test.js:35:19)
+    at tryCatch (/home/hackerearth/Documents/My React/react/frontend/main.test.js:2:1)
+    at Generator._invoke (/home/hackerearth/Documents/My React/react/frontend/main.test.js:2:1)
+    at Generator.next (/home/hackerearth/Documents/My React/react/frontend/main.test.js:2:1)
+    at asyncGeneratorStep (/home/hackerearth/Documents/My React/react/frontend/main.test.js:2:1)
+    at _next (/home/hackerearth/Documents/My React/react/frontend/main.test.js:2:1)
+    at /home/hackerearth/Documents/My React/react/frontend/main.test.js:2:1
+    at new Promise (&lt;anonymous&gt;)
+    at Object.&lt;anonymous&gt; (/home/hackerearth/Documents/My React/react/frontend/main.test.js:2:1)
+    at Object.asyncJestTest (/home/hackerearth/Documents/My React/react/frontend/node_modules/jest/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:106:37)
+    at /home/hackerearth/Documents/My React/react/frontend/node_modules/jest/node_modules/jest-jasmine2/build/queueRunner.js:45:12
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (/home/hackerearth/Documents/My React/react/frontend/node_modules/jest/node_modules/jest-jasmine2/build/queueRunner.js:28:19)
+    at /home/hackerearth/Documents/My React/react/frontend/node_modules/jest/node_modules/jest-jasmine2/build/queueRunner.js:75:41
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)</failure>
+    </testcase>
+    <testcase classname="App" name="renders phone list after data is fetched" time="0.003">
+      <failure>TestingLibraryElementError: Unable to find an element with the text: Phone 1. This could be because the text is broken up by multiple elements. In this case, you can provide a function for your text matcher to make your matcher more flexible.
+
+Ignored nodes: comments, script, style
+&lt;body&gt;
+  &lt;div&gt;
+    &lt;div&gt;
+      &lt;h1&gt;
+        Phone List
+      &lt;/h1&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/body&gt;
+    at Object.getElementError (/home/hackerearth/Documents/My React/react/frontend/node_modules/@testing-library/dom/dist/config.js:40:19)
+    at /home/hackerearth/Documents/My React/react/frontend/node_modules/@testing-library/dom/dist/query-helpers.js:90:38
+    at /home/hackerearth/Documents/My React/react/frontend/node_modules/@testing-library/dom/dist/query-helpers.js:62:17
+    at getByText (/home/hackerearth/Documents/My React/react/frontend/node_modules/@testing-library/dom/dist/query-helpers.js:111:19)
+    at _callee2$ (/home/hackerearth/Documents/My React/react/frontend/main.test.js:49:19)
+    at tryCatch (/home/hackerearth/Documents/My React/react/frontend/main.test.js:2:1)
+    at Generator._invoke (/home/hackerearth/Documents/My React/react/frontend/main.test.js:2:1)
+    at Generator.next (/home/hackerearth/Documents/My React/react/frontend/main.test.js:2:1)
+    at asyncGeneratorStep (/home/hackerearth/Documents/My React/react/frontend/main.test.js:2:1)
+    at _next (/home/hackerearth/Documents/My React/react/frontend/main.test.js:2:1)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)</failure>
+    </testcase>
+    <testcase classname="App" name="renders error message when there is an error in fetching data" time="1.006">
+      <failure>TestingLibraryElementError: Unable to find an element with the text: Error: Failed to fetch data. This could be because the text is broken up by multiple elements. In this case, you can provide a function for your text matcher to make your matcher more flexible.
+
+Ignored nodes: comments, script, style
+&lt;body&gt;
+  &lt;div&gt;
+    &lt;div&gt;
+      &lt;h1&gt;
+        Phone List
+      &lt;/h1&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/body&gt;
+
+Ignored nodes: comments, script, style
+&lt;html&gt;
+  &lt;head /&gt;
+  &lt;body&gt;
+    &lt;div&gt;
+      &lt;div&gt;
+        &lt;h1&gt;
+          Phone List
+        &lt;/h1&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/body&gt;
+&lt;/html&gt;Error: Unable to find an element with the text: Error: Failed to fetch data. This could be because the text is broken up by multiple elements. In this case, you can provide a function for your text matcher to make your matcher more flexible.
+
+Ignored nodes: comments, script, style
+&lt;body&gt;
+  &lt;div&gt;
+    &lt;div&gt;
+      &lt;h1&gt;
+        Phone List
+      &lt;/h1&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/body&gt;
+    at waitForWrapper (/home/hackerearth/Documents/My React/react/frontend/node_modules/@testing-library/dom/dist/wait-for.js:187:27)
+    at _callee3$ (/home/hackerearth/Documents/My React/react/frontend/main.test.js:63:18)
+    at tryCatch (/home/hackerearth/Documents/My React/react/frontend/main.test.js:2:1)
+    at Generator._invoke (/home/hackerearth/Documents/My React/react/frontend/main.test.js:2:1)
+    at Generator.next (/home/hackerearth/Documents/My React/react/frontend/main.test.js:2:1)
+    at asyncGeneratorStep (/home/hackerearth/Documents/My React/react/frontend/main.test.js:2:1)
+    at _next (/home/hackerearth/Documents/My React/react/frontend/main.test.js:2:1)
+    at /home/hackerearth/Documents/My React/react/frontend/main.test.js:2:1
+    at new Promise (&lt;anonymous&gt;)
+    at Object.&lt;anonymous&gt; (/home/hackerearth/Documents/My React/react/frontend/main.test.js:2:1)
+    at Object.asyncJestTest (/home/hackerearth/Documents/My React/react/frontend/node_modules/jest/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:106:37)
+    at /home/hackerearth/Documents/My React/react/frontend/node_modules/jest/node_modules/jest-jasmine2/build/queueRunner.js:45:12
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (/home/hackerearth/Documents/My React/react/frontend/node_modules/jest/node_modules/jest-jasmine2/build/queueRunner.js:28:19)
+    at /home/hackerearth/Documents/My React/react/frontend/node_modules/jest/node_modules/jest-jasmine2/build/queueRunner.js:75:41
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)</failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="sample.test.js" errors="0" failures="3" skipped="0" timestamp="2023-06-07T18:22:56" time="1.108" tests="3">
+    <testcase classname="App" name="renders loading state initially" time="0.003">
+      <failure>TestingLibraryElementError: Unable to find an element with the text: Loading.... This could be because the text is broken up by multiple elements. In this case, you can provide a function for your text matcher to make your matcher more flexible.
+
+Ignored nodes: comments, script, style
+&lt;body&gt;
+  &lt;div&gt;
+    &lt;div&gt;
+      &lt;h1&gt;
+        Phone List
+      &lt;/h1&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/body&gt;
+    at Object.getElementError (/home/hackerearth/Documents/My React/react/frontend/node_modules/@testing-library/dom/dist/config.js:40:19)
+    at /home/hackerearth/Documents/My React/react/frontend/node_modules/@testing-library/dom/dist/query-helpers.js:90:38
+    at /home/hackerearth/Documents/My React/react/frontend/node_modules/@testing-library/dom/dist/query-helpers.js:62:17
+    at getByText (/home/hackerearth/Documents/My React/react/frontend/node_modules/@testing-library/dom/dist/query-helpers.js:111:19)
+    at _callee$ (/home/hackerearth/Documents/My React/react/frontend/sample.test.js:35:19)
+    at tryCatch (/home/hackerearth/Documents/My React/react/frontend/sample.test.js:2:1)
+    at Generator._invoke (/home/hackerearth/Documents/My React/react/frontend/sample.test.js:2:1)
+    at Generator.next (/home/hackerearth/Documents/My React/react/frontend/sample.test.js:2:1)
+    at asyncGeneratorStep (/home/hackerearth/Documents/My React/react/frontend/sample.test.js:2:1)
+    at _next (/home/hackerearth/Documents/My React/react/frontend/sample.test.js:2:1)
+    at /home/hackerearth/Documents/My React/react/frontend/sample.test.js:2:1
+    at new Promise (&lt;anonymous&gt;)
+    at Object.&lt;anonymous&gt; (/home/hackerearth/Documents/My React/react/frontend/sample.test.js:2:1)
+    at Object.asyncJestTest (/home/hackerearth/Documents/My React/react/frontend/node_modules/jest/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:106:37)
+    at /home/hackerearth/Documents/My React/react/frontend/node_modules/jest/node_modules/jest-jasmine2/build/queueRunner.js:45:12
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (/home/hackerearth/Documents/My React/react/frontend/node_modules/jest/node_modules/jest-jasmine2/build/queueRunner.js:28:19)
+    at /home/hackerearth/Documents/My React/react/frontend/node_modules/jest/node_modules/jest-jasmine2/build/queueRunner.js:75:41</failure>
+    </testcase>
+    <testcase classname="App" name="renders phone list after data is fetched" time="0.003">
+      <failure>TestingLibraryElementError: Unable to find an element with the text: Phone 1. This could be because the text is broken up by multiple elements. In this case, you can provide a function for your text matcher to make your matcher more flexible.
+
+Ignored nodes: comments, script, style
+&lt;body&gt;
+  &lt;div&gt;
+    &lt;div&gt;
+      &lt;h1&gt;
+        Phone List
+      &lt;/h1&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/body&gt;
+    at Object.getElementError (/home/hackerearth/Documents/My React/react/frontend/node_modules/@testing-library/dom/dist/config.js:40:19)
+    at /home/hackerearth/Documents/My React/react/frontend/node_modules/@testing-library/dom/dist/query-helpers.js:90:38
+    at /home/hackerearth/Documents/My React/react/frontend/node_modules/@testing-library/dom/dist/query-helpers.js:62:17
+    at getByText (/home/hackerearth/Documents/My React/react/frontend/node_modules/@testing-library/dom/dist/query-helpers.js:111:19)
+    at _callee2$ (/home/hackerearth/Documents/My React/react/frontend/sample.test.js:49:19)
+    at tryCatch (/home/hackerearth/Documents/My React/react/frontend/sample.test.js:2:1)
+    at Generator._invoke (/home/hackerearth/Documents/My React/react/frontend/sample.test.js:2:1)
+    at Generator.next (/home/hackerearth/Documents/My React/react/frontend/sample.test.js:2:1)
+    at asyncGeneratorStep (/home/hackerearth/Documents/My React/react/frontend/sample.test.js:2:1)
+    at _next (/home/hackerearth/Documents/My React/react/frontend/sample.test.js:2:1)</failure>
+    </testcase>
+    <testcase classname="App" name="renders error message when there is an error in fetching data" time="1.004">
+      <failure>TestingLibraryElementError: Unable to find an element with the text: Error: Failed to fetch data. This could be because the text is broken up by multiple elements. In this case, you can provide a function for your text matcher to make your matcher more flexible.
+
+Ignored nodes: comments, script, style
+&lt;body&gt;
+  &lt;div&gt;
+    &lt;div&gt;
+      &lt;h1&gt;
+        Phone List
+      &lt;/h1&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/body&gt;
+
+Ignored nodes: comments, script, style
+&lt;html&gt;
+  &lt;head /&gt;
+  &lt;body&gt;
+    &lt;div&gt;
+      &lt;div&gt;
+        &lt;h1&gt;
+          Phone List
+        &lt;/h1&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/body&gt;
+&lt;/html&gt;Error: Unable to find an element with the text: Error: Failed to fetch data. This could be because the text is broken up by multiple elements. In this case, you can provide a function for your text matcher to make your matcher more flexible.
+
+Ignored nodes: comments, script, style
+&lt;body&gt;
+  &lt;div&gt;
+    &lt;div&gt;
+      &lt;h1&gt;
+        Phone List
+      &lt;/h1&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/body&gt;
+    at waitForWrapper (/home/hackerearth/Documents/My React/react/frontend/node_modules/@testing-library/dom/dist/wait-for.js:187:27)
+    at _callee3$ (/home/hackerearth/Documents/My React/react/frontend/sample.test.js:63:18)
+    at tryCatch (/home/hackerearth/Documents/My React/react/frontend/sample.test.js:2:1)
+    at Generator._invoke (/home/hackerearth/Documents/My React/react/frontend/sample.test.js:2:1)
+    at Generator.next (/home/hackerearth/Documents/My React/react/frontend/sample.test.js:2:1)
+    at asyncGeneratorStep (/home/hackerearth/Documents/My React/react/frontend/sample.test.js:2:1)
+    at _next (/home/hackerearth/Documents/My React/react/frontend/sample.test.js:2:1)
+    at /home/hackerearth/Documents/My React/react/frontend/sample.test.js:2:1
+    at new Promise (&lt;anonymous&gt;)
+    at Object.&lt;anonymous&gt; (/home/hackerearth/Documents/My React/react/frontend/sample.test.js:2:1)
+    at Object.asyncJestTest (/home/hackerearth/Documents/My React/react/frontend/node_modules/jest/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:106:37)
+    at /home/hackerearth/Documents/My React/react/frontend/node_modules/jest/node_modules/jest-jasmine2/build/queueRunner.js:45:12
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (/home/hackerearth/Documents/My React/react/frontend/node_modules/jest/node_modules/jest-jasmine2/build/queueRunner.js:28:19)
+    at /home/hackerearth/Documents/My React/react/frontend/node_modules/jest/node_modules/jest-jasmine2/build/queueRunner.js:75:41</failure>
+    </testcase>
+  </testsuite>
+</testsuites>
