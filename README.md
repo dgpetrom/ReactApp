@@ -42,7 +42,7 @@ Tasks
 **The following functionalities must be implemented in the App.js file:**
 
 Fetch the data from the API endpoint to display phone data and handle errors by setting the error state, while also managing the loading state.
-If the 'isLoading' state is true, render a <div> with the text 'Loading...' to indicate that the data is being loaded.
+If the 'isLoading' state is true, render a "\<div\>" with the text 'Loading...' to indicate that the data is being loaded.
 If the error state is true, render a <div> the error message, preceded by the text 'Error:'. Render and display a list of phones with their corresponding details.
 
 **Testing instructions **
